@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:drawable/toast_frame"
+        >
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20px"
+            android:text="Catatan Ku" />
+        <EditText
+            android:id="@+id/data_tanggal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal"/>
+        <EditText
+            android:id="@+id/data_jam"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jam"
+            android:gravity="top"/>
+        <EditText
+            android:id="@+id/data_catatan"
+            android:layout_width="fill_parent"
+            android:layout_height="100px"
+            android:singleLine="false"
+            android:hint="Catatan" />
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan" />
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Batal" />
+    </LinearLayout>
+</LinearLayout>

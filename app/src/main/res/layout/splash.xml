@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black">
+    <TextView
+        android:layout_width="fill_parent"
+        android:id="@+id/TextViewTopTitle"
+        android:text="MOBILE PROGRAMMING"
+        android:textColor="#FFF"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center"
+        android:textSize="12pt"
+        android:background="#FF0000"
+        android:layout_height="80dip">
+    </TextView>
+    <TableLayout
+        android:id="@+id/TableLayout01"
+        android:stretchColumns="*"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal">
+            <ImageView
+                android:id="@+id/ImageView2_Left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/catatan"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="20dip">>
+            </ImageView>
+        </TableRow>
+    </TableLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewBottomTitle"
+        android:text="APLIKASI REMINDER CATATAN HARIAN"
+        android:textColor="#FFF"
+        android:gravity="center"
+        android:textSize="12pt"
+        android:layout_marginBottom="30dip">
+    </TextView>
+    <TextView
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:textSize="10pt"
+        android:lineSpacingExtra="5pt"
+        android:id="@+id/TextViewBottomVersion"
+        android:textColor="#FFF"
+        android:background="#F00"
+        android:text="By: Teknik Informatika A 2008 Kelompok 5"
+        android:layout_height="80dip">
+    </TextView>
+</LinearLayout>

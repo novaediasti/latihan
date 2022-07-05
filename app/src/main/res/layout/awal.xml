@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="APLIKASI REMINDER CATATAN HARIAN"
+        android:gravity="top|center"
+        android:textColor="#FFF"
+        android:textSize="12pt"
+        android:background="@android:drawable/toast_frame">
+    </TextView>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ayo... catat hal-hal yang telah kita lakukan hari ini
+dan dan hal-hal yang akan kita lakukan untuk hari-hari berikutnya, agar
+hidup kita penuh perencanaan dan tanggung jawab."
+        android:gravity="top|center"
+        android:textColor="#FFF"
+        android:textSize="8pt"
+        android:background="@android:drawable/toast_frame">
+    </TextView>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="[Klik Tombol Menu]"
+        android:gravity="top|center"
+        android:textColor="#FFF"
+        android:background="@android:drawable/toast_frame"
+        android:textSize="8pt">
+    </TextView>
+</LinearLayout>
